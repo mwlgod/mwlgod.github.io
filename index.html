@@ -1,44 +1,267 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>This is a Test</title>
+
+    <!-- Required meta tags always come first  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+	<title>The Kennel Repository</title>
 </head>
 <body>
+	<!-- navigation section -->
+	<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="Navbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#"> Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"> About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"> Contact Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"> Menu </a>
+					</li>
+				</ul>
+				<span class="navbar-text">
+	                <a id="loginButton">
+	                    Login
+	                </a>
+	            </span>
+	        </div>
+		</div>
+	</nav>
+
+	<header class="mb-0 container">
+		
+        <div class="row row-content">
+            <div class="col col-sm-6">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid"
+                                src="img/boerboel.jpg" alt="Boerboel">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>BOERBOEL </h2>
+                                <p class=" d-sm-block">Enjoy top quality breeds.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid"
+                                src="img/GermanShepherd.jpg" alt="GSD">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2> GERMAN SHEPHERD</h2>
+                                <p class="d-none d-sm-block">Best breeds available </p>
+                            </div>
+                        
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid"
+                                src="img/Cane corso.jpg" alt="Cane corso">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Cane corso</h2>
+                                
+                                <p class="d-none d-sm-block">More breeds to come. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                         <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    <button class="btn btn-danger btn-sm" id="carouselButton">
+                        <span class="fa fa-pause"></span>
+                    </button>
+                </div>
+                
+            </div>
+
+        
+
+			<div class="col-12 col-sm-6 jumbotron">
+				<h3>Let's Get You That Pet You Have Always Desired
+				</h3>
+			</div>
+			
+		</div>
+		
+	</header>
+
+	<!-- card section -->
+	<div class="card-deck">
+		<div class="row row-content">
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					
+					<a href="www.google.com">
+						<img class="card-img-top" src="img/Boerboel2.png">
+					</a> 
+					<div class="card-body ">
+						<div class="d-none d-sm-block card-title"> 
+							<h5>Boerboel</h5> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="card" style="width: 18rem;">
+					
+					<a href="#">
+						<img class="card-img-top" src="img/German-Shepherd-Dog.png">
+					</a> 
+					<div class="card-body ">
+						<div class="d-none d-sm-block card-title"> 
+							<h5>GSD</h5> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="card">
+					<div class="card-body ">
+						<img class="d-flex img-thumbnail align-self-center img-fluid" src="img/
+						rottweiler.jpg" alt="Rott">
+					</div>
+					<span class="d-none d-sm-block card-footer"> Rott</span>		
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="card">
+					<div class="card-body  ">
+						<img class="d-flex img-thumbnail align-self-center" src="img/Caucasian.png">
+					</div>
+					<span class="d-none d-sm-block card-footer"> Caucasian</span>		
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="card">
+					<div class="card-body bg-light">
+						<img class="d-flex img-thumbnail align-self-center" src="img/
+						lhasa_apso.png" alt="Lhasa_apso">
+					</div>
+					<span class="d-none d-sm-block card-footer"> Lhasa</span>		
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="card">
+					<div class="card-body bg-light">
+						<img class="d-flex img-thumbnail align-self-center" src="img/
+						pug.png" alt="Pug">
+					</div>
+					<span class="d-none d-sm-block card-footer"> Pug</span>		
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="card">
+					<div class="card-body bg-light">
+						<img class="d-flex img-thumbnail img-fluid align-self-center" src="img/pitbull2.png" alt="Pitbull">
+					</div>
+					<span class="d-none d-sm-block card-footer"> Pitbull</span>		
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="card">
+					<div class="card-body bg-light">
+						<img class="d-flex img-thumbnail img-fluid align-self-center" src="img/Cane corso.png" alt="Cane corso">
+					</div>
+					<span class="d-none d-sm-block card-footer"> Cane corso</span>		
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div class="container">
-		<!-- navigation section -->
-		<nav>
-			<a href="#">Home</a>
-		</nav>
-
-		<!-- welcome  section -->
-		<div class="container row">
-			<div class="col-sm col-md-5">
-				The carousel stays here
-			</div>
-			<div class="col col-md-5">
-				<h1>welcome page stays here
-				</h1>
-			</div>
-		</div>
-
-		<!-- card section -->
-		<div class="card">
-			<div class="card-content">
-				Cards will stay here
-			</div>
-		</div>
 
 		<!-- feed and stud form section -->
+		<div class="row row-content bg-light">
+			
+			<div class="col-12 col-sm-6 bg-primary">
+				<h4> stud form section</h4>
+			</div>
+			<div class="col-12 col-sm-6">
+				<h4> feed form section</h4>
+			</div>
+		</div>
 
 		<!-- installment form section -->
+		<div class="row row-content bg-primary">
+			<h4>installment form section</h4>
+		</div>
 
 		<!-- veterinary section -->
+		<div class="row row-content bg-success">
+			<h4> veterinary section</h4>
+		</div>
 
 	</div>
 
-	<footer>
-		<div> copyright and other info here
-		</div>
-	</footer>
+	<footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+		              Bembo, Apata axis<br>
+		              NNPC Landmark, Oyo State<br>
+		              Nigeria<br>
+		              <i class="fa fa-phone fa-lg"></i>: +234 803 618 0588<br>
+                      <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+                      <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:mwlgod@gmail.com">mwlgod@gmail.com</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon " href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2020 Kennel Repository</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,31 @@
+.navbar-dark {
+  background-color: #b98162; }
+
+header{
+	margin: 56px auto 0px;
+}
+.card-footer{
+	text-align: center;
+}
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  
+  min-height: 400px; }
+
+body { 
+background-color: #b2ba82; }
+
+.footer {
+  background-color: #f7e2d1; #D7A87E
+  margin: 0px auto;
+  padding: 20px 0px; }
+
+.card-body { padding: 10px;
+            max-height: 305px;
+            margin: auto;
+}
+
+   
+
+}
