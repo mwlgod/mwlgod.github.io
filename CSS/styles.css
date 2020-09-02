@@ -14,18 +14,34 @@ header{
   min-height: 400px; }
 
 body { 
-background-color: #b2ba82; }
+background-color: #f7e2d1;  }
 
-.footer {
-  background-color: #f7e2d1; #D7A87E
-  margin: 0px auto;
-  padding: 20px 0px; }
-
-.card-body { padding: 10px;
-            max-height: 305px;
-            margin: auto;
+.jumbotron{
+  background-color: #f7e2d1;
+  padding: 2rem;
 }
+.footer {
+  ; 
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #bfb2a7; }
 
+.card-body { ;
+            
+            margin: auto;
+            padding-bottom: 10px;
+}
+.bg-doggy {
+  background-color: #D7A87E;
+}
+.bg-doggy2 {
+  background-color: #f6A87E;
+}
    
-
+.formpad{
+  padding: 1rem;
+}
+.bg-install{
+  background-color: #b2ba82;
+}
 }
